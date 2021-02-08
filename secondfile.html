@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background-image: linear-gradient(to right, lightpink, violet);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #ff1694;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+.subjoey {
+  font-size: 36px;
+		 }
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #E11584;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #fc8eac;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #FDA4Ba;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background--image: linear-gradient(to left, violet, lightpink);
+  padding-left: 20px;
+}
+
+<!--/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+-->
+/* Add a card effect for articles */
+.card {
+  background-color: #ffd1dc;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 20px;
+  font-color: darkpurple;
+  font-family: arial;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+div.polaroid {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  margin-top: 25px;
+			 }
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+			  }
+.button {
+	border: none;
+	color: black;
+	background-color: #98fb98;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 14px;
+		}
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background: #E6F7FF;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1 style="color: #ffd1dc; font-family: comic sans ms">Joey MacDonald Hate Page &#9829;</h1>
+  <p class="subjoey" style="color: #ffd1dc; font-family: comic sans ms">Exposing the real Joey.</p>
+</div>
+
+<div class="topnav">
+  <a href="#">Joey</a>
+  <a href="#">Loves</a>
+  <a href="#">BBC</a>
+  <a href="https://www.instagram.com/joeymacdonald0/" style="float:right">Click here &#9829;</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2 style="color: #666770; font-family: comic sans ms">Some things I hate about you</h2>
+      <h5 style="color: #666770; font-family: comic sans ms">~I am sparing~</h5>
+      <!--<div class="fakeimg" style="height:200px;">Image</div>-->
+      <p style="color: #666770; font-family: comic sans ms">some qualities include:</p>
+      <p style="color: #666770; font-family: comic sans ms">vitual af, ignoring me, being a saggitarius, being aggy, flake asf, the fact you drink shitwater, ummm ignoring me??</p>
+    </div>
+    <div class="card">
+      <h2 style="color: #e61980; font-family: comic sans ms">Some things that are Ok about you &#9829;</h2>
+      <h5 style="color: #e61980; font-family: comic sans ms">*from my own personal experience*</h5>
+      <!--<div class="fakeimg" style="height:200px;">Image</div>-->
+      <p style="color: #e61980; font-family: comic sans ms">some other qualities include:</p>
+      <p style="color: #e61980; font-family: comic sans ms">being kinda funny, occasionally sweet, being my drug dealer bae, whipping a ford focus, literally wanting to see me dead on a stretcher, living 5 houses away, Christian telling me that you would slide up on his stories and fuck with him which makes me laugh, etc.</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2 style="color: #7F00FF; font-family: comic sans ms">Famous Quotes</h2>
+      <!--<div class="fakeimg" style="height:100px;">Image</div>-->
+      <ul>
+	  <li style="color: #88289f; font-family: comic sans ms">"Bro ur cool bro nice car bro u buy that urself??"</li>
+	  <li style="color: #e32636; font-family: comic sans ms">"Aight im done *peace*"</li>
+	  <li style="color: #1675a7; font-family: comic sans ms">"Sexy"</li>
+	  <li style="color: #61bc57; font-family: comic sans ms">"Thought you were brick asf"</li>
+	  <li style="color: #3c289f; font-family: comic sans ms">"Tryna drop neck?"</li>
+	  <li style="color: #e61980; font-family: comic sans ms">"Ur friend is hot"</li>
+	  <li style="color: #59396a; font-family: comic sans ms">"cHilL bRuH"</li>
+	  
+	  </ul>
+    </div>
+    <div class="card">
+      <h3 style="color: #1675a7; font-family: comic sans ms">In conclusion...</h3>
+      <p style="color: #1675a7; font-family: comic sans ms"> Here's his number for U bitches too: 321 986 7079</p>
+	  <!--<div class="fakeimg"><p>Image</p></div>
+      <div class="fakeimg"><p>Image</p></div>
+      <div class="fakeimg"><p>Image</p></div>-->
+    </div>
+    <div class="card">
+      <h3 style="color: #7F00FF; font-family: comic sans ms">MAKE SURE to add him on snap asap @JoeyDading</h3>
+      <p style="color: #7F00FF; font-family: comic sans ms">Ladies don't be shy! Make sure you show him sum or he might block you XD</p>
+    </div>
+  </div>
+</div>
+<div class="polaroid">
+<img src="https://media1.tenor.com/images/ccc4c54247c2ecd09cc05a29178ac9d0/tenor.gif?itemid=5161145" alt="fashionkilla" style="width:100%">
+<div class="container">
+<p>This Could Be Us But U Playin (also idk why this gif is huge idk how to resize it)</p>
+</div>
+</div>
+<input type="button" class="button" onclick="alert('Cut Starve Die')" value="Click me for a surprise!"</input>
+<div class="footer" style="color: #7F00FF; font-family: comic sans ms">
+  <h2>Joey is a die hard playa. The End. &#9829;</h2>
+</div>
+
+</body>
+</html>
